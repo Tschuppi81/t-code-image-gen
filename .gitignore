@@ -1,0 +1,67 @@
+# Byte code
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+.pytest_cache/
+
+# Packaging
+src/*.egg-info
+
+# Pyenv
+.python-version
+
+# Profiling information
+profiles/*
+
+# Bundles / Webassets
+.webassets-cache
+*.bundle.js
+*.bundle.css
+
+# Default virtual env
+venv/
+
+# Eggs folder
+eggs/
+
+# pytest-testmon data
+.testmondata
+.tmontmp
+
+# mypy
+.mypy_cache/*
+
+# sublime
+*.sublime-workspace
+
+# pycharm
+.idea
+
+# Sphinx
+docs/_build
+docs/autoapi
+
+# node
+node_modules/
+
+# virtualenv
+bin
+include
+lib
+share
+pyvenv.cfg
+
+# npm / jest
+package-lock.json
+
+# pytest-profiling
+prof
+/var
