@@ -53,9 +53,21 @@ select {
     padding: 1em 1em;
     min-width: 64em;
     max-width: 100%;
-    min-height: 24em;
+    /*min-height: 24em;*/
+    min-height: 12em;
     text-align: left;
     border: 1px solid #cecece;
     margin: 1em;
     line-height: 1.4em;
+}
+
+.code-picture {
+    text-align: center;
+}
+
+.code-picture img {
+    margin: 1em 0;
+    border: 1px solid #cecece;
+    max-width: 80%;
+    padding: 1em;
 }
