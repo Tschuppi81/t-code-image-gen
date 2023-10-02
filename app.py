@@ -52,7 +52,7 @@ def reset_session():
 
 @app.route('/style', methods=['GET'])
 def style():
-    if session['style'] is None:
+    if session.get('style') is None:
         session['style'] = DEFAULT_STYLE
 
     formatter = HtmlFormatter(style=session['style'])
