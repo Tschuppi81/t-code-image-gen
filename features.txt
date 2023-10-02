@@ -3,3 +3,4 @@ Features
 
 1/ api to return an image from a post request
 
+2/ generated image only as high as the code
